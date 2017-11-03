@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel=stylesheet href="estilos/estilo.css" type="text/css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <title>Ubicacion</title>
+        
+        <link rel="Shortcut Icon" href="favicon.ico">
+    </head>
+    <body class="bodyyy">
+        
+        <div class="encabezado">
+        
+<ul class="menu">
+  <li><a href="index.html">INICIO</a>
+    
+    
+    
+    </li>
+      <li><a href="concientelo.html">Cuida a tu Mascota</a>
+    <ul>
+       
+        
+    </ul>
+    </li>
+    <li><a href="accesorios.html">Accesorios</a>
+    <ul>
+          
+    </ul>
+    
+    </li>
+    
+  <li style="float:right"><a href="contactanos.html" class="active">Contáctanos</a></li>
+</ul>
+       
+    
+  
+        
+    </div>
+        
+    <div class="textorightmap">  
+    <h3>Ubicación <i class="material-icons">explore</i></h3>
+    <p>401 Calle Capitán Pedro Celestino</p>
+    <p>Negrete 34060 Victoria de Durango</p>
+    <h3>Información <i class="material-icons">query_builder</i></h3>
+    <p>Horario: <a class="destacados">Siempre abierto</a></p>
+    
+    </div>
+        
+    <div id="map"></div>
+        
+
+          <script>
+      function initMap() {
+        var uluru = {lat: 24.0259259, lng:  -104.6688445};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB99VwsrHzXdaVPSA0ApqKURtqSj4EZ1XM&callback=initMap">
+    </script>
+        
+        
+        
+       
+    </body>    
+
+</html>
