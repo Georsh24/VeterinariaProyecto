@@ -26,7 +26,7 @@
 }
 
 .encabezado li a:hover:not(.active) {
-    background-color: blue;
+    background-color: gray;
 }
 
 .encabezado li ul {
