@@ -1,0 +1,304 @@
+.encabezado  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgba(0, 0, 255, 0.3 );
+    font-family:sans-serif;
+    z-index: 1;
+}
+
+.encabezado li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.encabezado li:last-child {
+    border-right: none;
+}
+
+.encabezado li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+
+.encabezado li a:hover:not(.active) {
+    background-color: blue;
+}
+
+.encabezado li ul {
+    display:none;
+    position: absolute;
+    min-width: 150px;
+    float:none;
+    
+}
+.encabezado li:hover > ul {
+    display: block;
+    float: none;
+}
+.encabezado li ul li {
+    position: relative;
+    float: none;
+}
+.encabezado li ul li ul {
+    right: -300px;
+    top: 0px;
+    
+}
+
+
+.active {
+    background-color: blue;
+    
+}
+.bodyyy{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    border: 0%;
+    margin: 0%;
+}
+.bodyy{
+    background-color:blanchedalmond;
+    border: 0%;
+    margin: 0%;
+}
+
+.piedepagina{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgba(200, 50, 71, 0.1 );
+    font-family:sans-serif;
+    margin-top: 5;
+    font-size: 10px;
+    color: white;
+}
+
+.navegacion ul li  {
+    list-style: none;
+}
+.huella{
+    
+    transform:  rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+  
+    
+    float: none;
+    
+}
+.huella1{
+    
+    transform:  rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+   
+    float: none;
+    
+}
+.huella2{
+    
+    transform:  rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+   
+    float: none;
+    
+}
+.huella3{
+    
+    transform:  rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+    
+    float:none; 
+    
+
+}
+.huella4{
+    
+    transform:  rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+    
+    float: none;
+    
+  
+    
+}
+
+
+  
+                .fondo1{
+                    width: 10%;
+                    margin-top: 30%;
+                    margin-left: 5%;
+                    float: left;
+                    position: absolute;
+                    border-radius: 15px;
+                    text-align: center;
+                    font-family: cursive;
+                    color: white;
+                    z-index: -1;
+                    
+                    
+               
+            
+                }
+                .fondo2{
+                    
+                    width: 10%;
+                    position: absolute;
+                    margin-left: 18%;
+                    float: left;
+                    margin-top: 15%;
+                    border-radius: 15px;
+                    text-align: center;
+                    font-family: cursive;
+                    color: white;
+                    z-index: -1;
+                        
+                }
+                 .fondo3{
+                    width: 10%;
+                    margin-top: 18%;
+                    margin-left: 38%;
+                    float: left;
+                    position: absolute;
+                     border-radius: 15px;
+                     text-align: center;
+                     font-family: cursive;
+                    color: white;
+                     z-index: -1;
+                }
+                .fondo4{
+                    position: absolute;
+                    width: 10%;
+                    margin-top: 2%;
+                    margin-left: 50%;
+                    float: left;
+                    
+                    border-radius: 15px;
+                    text-align: center;
+                    font-family: cursive;
+                    color: white;
+                    z-index: -1;
+                }
+                
+.imagenesinicio{
+    float: left;
+}
+.textoinicio{
+font-family: sans-serif;
+text-align: center;    
+}
+.tituloinicio{
+    text-align: center;
+    font-family: sans-serif;
+}
+.piedepagina2{
+    
+    position: absolute;
+    width: 100%;
+    background-color: rgba(200, 50, 71, 0.1 );
+    font-family:sans-serif;
+
+    font-size: 10px;
+    float: none;
+     color: white;
+   
+    overflow:hidden;
+    font-family:sans-serif;
+    margin-top: 500px;
+   
+}         
+
+ #map {
+        height: 575px;
+        width: 70%;
+     z-index: -1;
+     float: left;
+       }
+.textorightmap{
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-top: 10%;
+    color: white;
+}
+.destacados{
+    color: blue;
+}
+.relleno{
+    width: 100%;
+    float: left;
+}
+.rellenoleft{
+    float: left;
+    text-align: justify;
+    width: 49%;
+    font-size: 20px;
+    color: white;
+    
+   
+}
+.rellenoright{
+    float: right;
+    text-align: justify;
+    width: 49%;
+    font-size: 20px;
+    color: white;
+    
+}
+.logo{
+    width: 100%;
+}
+.logo1{
+    position: absolute;
+    position: relative;
+    float: right;
+    z-index: 1;
+}
+.logoconcientelo{
+    width: 100%;
+}
+.imgconcientelo{
+    border: 1px solid #Dfb;
+    border-radius: 4px;
+    padding: 5px;
+}
+.imgconcientelo:hover{
+    
+   box-shadow: 0 0 2px 1px rgba(10, 10, 10, 0.5);
+}
+.contenedor{
+    text-align: center;
+    padding: 10px 20px;
+}
+.tituloinicio{
+    color: rgba(178, 178, 255, 1);
+}
+.titulosconocenos{
+    color: rgba(178, 178, 255, 1);
+    font-family: sans-serif;
+    
+    
+}
+.textoconocenos{
+    font-family: sans-serif;
+    color: white;
+    
+}
+.logoconocenos{
+    text-align: center;
+}
+.titulocuida{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 0px;
+    color: rgba(178,178,255,1);
+}
+.textocuida{
+    font-family: sans-serif;
+}
