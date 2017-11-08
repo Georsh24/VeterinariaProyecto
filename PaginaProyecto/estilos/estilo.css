@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background-color: rgba(0, 0, 255, 0.3 );
+    background-color: rgba(255, 255, 50, 0.3 );
     font-family:sans-serif;
     z-index: 1;
 }
@@ -26,7 +26,7 @@
 }
 
 .encabezado li a:hover:not(.active) {
-    background-color: gray;
+    background-color: red;
 }
 
 .encabezado li ul {
@@ -56,7 +56,7 @@
     
 }
 .bodyyy{
-    background-color: blanchedalmond;
+    background-color: skyblue;
    /* background-image: url(img/fondo.jpg);*/
     background-size: cover;
     background-repeat: repeat;
